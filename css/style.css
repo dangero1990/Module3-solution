@@ -1,1 +1,42 @@
-ECHO is on.
+body {
+	background-color: grey !important;
+}
+/*** Header ***/
+#header-nav {
+	background-color: black;
+	border-radius: 0;
+	border: 0;
+	height: 100px;
+}
+.navbar-brand h1 {
+	color: white;
+	float: left;
+}
+.navbar-header {
+	padding: 0px;
+}
+
+/*** End Header ***/
+
+h2 {
+	text-align: center;
+}
+.row {
+	width: 100%;
+}
+.box {
+	border: 5px solid black;
+	margin: 5px;
+	height: relative;
+	overflow: hidden;
+	background-color: green;
+}
+.box h3 {
+	text-align: center;
+	color: yellow;
+	font-weight: bold;
+}
+.box p {
+	margin: 5px;
+	color: lightyellow;
+}
